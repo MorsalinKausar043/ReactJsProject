@@ -1,0 +1,43 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 62.5%;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(#fff 30% , #ffd6d6 70%);
+}
+
+.main h2{
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+}
+
+section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.show span{
+  border: 2px solid gray;
+  border-radius: 3rem;
+  padding: 3rem;
+  font-size: 6rem;
+  font-weight: 600;
+}
